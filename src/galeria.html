@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <title>Studion - Galeria</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="./">
+        <h1 class="logo">
+          Studi<span class="accent">on</span>
+          <span class="subtitle">Eventos</span>
+        </h1>
+      </a>
+      <ul id="menu" class="desktop">
+        <li>
+          <a href="./empresa.html">Empresa</a>
+        </li>
+        <li>
+          <a href="./eventos.html">Eventos</a>
+        </li>
+        <li>
+          <a href="#" class="active">Galeria</a>
+        </li>
+        <li>
+          <a href="./depoimentos.html">Depoimentos</a>
+        </li>
+        <li>
+          <a href="./contato.html">Contato</a>
+        </li>
+      </ul>
+      <button class="nav__menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <header>
+      <img
+        class="header__background"
+        src="./images/headers/header-galeria.jpeg"
+        alt="pessoas em um show"
+        style="filter: brightness(0.8);"
+      />
+      <div class="container container__header">
+        <h2>.galeria</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="container galery">
+        <div class="column">
+          <img src="./images/galery/image1.jpeg" alt="image1">
+          <img src="./images/galery/image5.jpeg" alt="image5">
+          <img src="./images/galery/image9.jpeg" alt="image9">
+        </div>
+        <div class="column">
+          <img src="./images/galery/image2.jpeg" alt="image2">
+          <img src="./images/galery/image6.jpeg" alt="image6">
+        </div>
+        <div class="column">
+          <img src="./images/galery/image3.jpeg" alt="image3">
+          <img src="./images/galery/image7.jpeg" alt="image7">
+          <img src="./images/galery/image10.jpeg" alt="image10">
+        </div>
+        <div class="column">
+          <img src="./images/galery/image4.jpeg" alt="image4">
+          <img src="./images/galery/image8.jpeg" alt="image8">
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <h2>
+          Studi<span class="accent">on</span>
+          <span class="subtitle">Eventos</span>
+        </h2>
+        <form id="newslatter-form">
+          <label>Receba News e
+            promoçoes</label>
+          <input id="email" type="email" placeholder="Email" />
+          <button type="submit">
+            <img class="icon" src="./images/icons/send2.svg" alt="enviar">
+          </button>
+        </form>
+        <ul class="socials">
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/whatsapp.svg" alt="whatsapp">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/youtube.svg" alt="youtube">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <p class="container copyright">Studi<span>on</span> - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

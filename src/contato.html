@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <title>Studion - Contato</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="./">
+        <h1 class="logo">
+          Studi<span class="accent">on</span>
+          <span class="subtitle">Eventos</span>
+        </h1>
+      </a>
+      <ul id="menu" class="desktop">
+        <li>
+          <a href="./empresa.html">Empresa</a>
+        </li>
+        <li>
+          <a href="./eventos.html">Eventos</a>
+        </li>
+        <li>
+          <a href="./galeria.html">Galeria</a>
+        </li>
+        <li>
+          <a href="./depoimentos.html">Depoimentos</a>
+        </li>
+        <li>
+          <a href="#" class="active">Contato</a>
+        </li>
+      </ul>
+      <button class="nav__menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <header>
+      <img
+        class="header__background"
+        src="./images/headers/header-contato.jpeg"
+        alt="macbook"
+        style="filter: brightness(0.2);"
+      />
+      <div class="container container__header">
+        <h2>.contato</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section1">
+        <section class="section1-left">
+          <div class="section1-left__contact-container">
+            <h4>LIGUE PRA GENTE</h4>
+            <p>
+              <img class="icon" src="./images/icons/phone.png" alt="telefone">
+              +55 48 3223-5869
+            </p>
+            <p>
+              <img class="icon" src="./images/icons/whatsapp.png" alt="telefone">
+              +55 48 99943-7777
+            </p>
+            <h4>VENHA CONHECER NOSSA CASA</h4>
+            <p class="address">
+              <img class="icon" src="./images/icons/location.png" alt="localização">
+              Rua miguel duax, 129 - coqueiros Florianópolis/sc
+            </p>
+          </div>
+        </section>
+        <section class="section1-right">
+          <div class="section1-right__form-container">
+            <h4>DEIXA SUA MENSAGEM</h4>
+            <form>
+              <label for="name">SEU NOME</label>
+              <input id="name" type="text" />
+              <label for="email">SEU EMAIL</label>
+              <input id="email" type="email" />
+              <label for="message">SUA MENSAGEM</label>
+              <textarea id="message"></textarea>
+              <button type="submit">ENVIAR</button>
+            </form>
+          </div>
+        </section>
+      </section>
+
+      <section class="section2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14671.053028003298!2d-45.87255346503555!3d-23.17883913924507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bcc0d78521d%3A0xf0054cb5365ee210!2sVila%20Industrial%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1713794056843!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        >
+      </iframe>
+     
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <h2>
+          Studi<span class="accent">on</span>
+          <span class="subtitle">Eventos</span>
+        </h2>
+        <form id="newslatter-form">
+          <label>Receba News e
+            promoçoes</label>
+          <input id="email" type="email" placeholder="Email" />
+          <button type="submit">
+            <img class="icon" src="./images/icons/send2.svg" alt="enviar">
+          </button>
+        </form>
+        <ul class="socials">
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/whatsapp.svg" alt="whatsapp">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="icon" src="./images/icons/youtube.svg" alt="youtube">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <p class="container copyright">Studi<span>on</span> - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
